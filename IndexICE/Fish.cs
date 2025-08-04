@@ -50,7 +50,7 @@ namespace IndexICE
         {
             get
             {
-                if (attrName == "lenght")
+                if (attrName == "lenghth")
                     return this.lenght;
                 else if (attrName == "fishWheight")
                     return this.fishWeight;
@@ -62,7 +62,7 @@ namespace IndexICE
             }
             set
             {
-                if (attrName.ToLower().Equals("lenght"))
+                if (attrName.ToLower().Equals("lenghth"))
                     this.lenght = (int)value;
                 else if (attrName.ToLower().Equals("weight"))
                     this.fishWeight = (int)value;
