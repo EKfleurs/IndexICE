@@ -64,7 +64,7 @@ namespace IndexICE
             {
                 if (attrName.ToLower().Equals("lenghth"))
                     this.lenght = (int)value;
-                else if (attrName.ToLower().Equals("weight"))
+                else if (attrName.ToLower().Equals("fishWheight"))
                     this.fishWeight = (int)value;
                 else if (attrName.ToLower().Equals("season"))
                     this.Season = (string)value;

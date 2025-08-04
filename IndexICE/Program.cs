@@ -12,8 +12,8 @@
             Console.WriteLine(snoek[0]);
             Console.WriteLine(snoek[1]);
 
-            Console.WriteLine("Length: " + snoek["lenghth"]);
-            Console.WriteLine("Weight: " + snoek["weight"]);
+            Console.WriteLine("Length: " + snoek["lenghth"] + "m");
+            Console.WriteLine("Weight: " + snoek["fishWheight"] + "kg");
             Console.WriteLine("Season: " + snoek["season"]);
             Console.WriteLine("Species: " + snoek["fishSpecies"]);
         }
